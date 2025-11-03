@@ -146,7 +146,7 @@
       .contact-hero h2 {
         font-size: 3.5rem;
         margin-bottom: 1.5rem;
-        color: var(--white);
+        color:gold;
         animation: fadeInDown 1s ease-out;
       }
 
@@ -450,7 +450,7 @@
 
       /* Footer */
       footer {
-        background-color: var(--dark-grey);
+        background-color: black;
         color: var(--white);
         padding: 4rem 0 1.5rem;
       }
