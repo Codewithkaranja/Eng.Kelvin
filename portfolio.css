@@ -49,7 +49,7 @@
 
       /* Header & Navigation */
       header {
-        background-color: rgba(255, 255, 255, 0.822);
+        background-color: black;
         box-shadow: var(--shadow);
         position: fixed;
         width: 100%;
@@ -90,7 +90,7 @@
 
       nav ul li a {
         text-decoration: none;
-        color: var(--dark-grey);
+        color:white;
         font-weight: 600;
         font-size: 1rem;
         transition: color 0.3s;
@@ -112,33 +112,20 @@
       /* Portfolio Hero Section */
       .portfolio-hero {
         background: linear-gradient(
-            rgba(13, 45, 94, 0.514),
-            rgba(13, 45, 94, 0.9)
+            rgba(13, 45, 94, 0.356),
+            rgba(13, 45, 94, 0.452)
           ),
           url("https://images.unsplash.com/photo-1466803136990-7c174b34ff32?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fGNvbnN0cnVjdGlvbiUyMHNpdGV8ZW58MHx8MHx8fDA%3D")
             no-repeat center center/cover;
-        padding: 6rem 0;
+        padding: 12rem 0;
         text-align: center;
         color: var(--white);
         position: relative;
+        height: 70vh;
       }
 
-      .portfolio-hero::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 20px;
-        background: linear-gradient(
-          135deg,
-          transparent 0%,
-          transparent 50%,
-          var(--white) 50%,
-          var(--white) 100%
-        );
-        background-size: 20px 20px;
-      }
+  
+   
 
       .portfolio-hero h2 {
         font-size: 3rem;
@@ -169,6 +156,7 @@
       /* Portfolio Section */
       .portfolio {
         padding: 5rem 0;
+        background-color: black;
       }
 
       .section-title {
@@ -401,7 +389,7 @@
       .cta h2 {
         font-size: 2.5rem;
         margin-bottom: 1.5rem;
-        color: gold;
+        color: var(--primary-blue);
       }
 
       .cta p {
@@ -523,8 +511,8 @@
           top: 70px;
           left: -100%;
           width: 80%;
-          height: calc(100vh - 70px);
-          background-color: var(--white);
+          height: calc(50vh - 70px);
+          background-color: black;
           box-shadow: var(--shadow);
           transition: all 0.3s;
           z-index: 999;
